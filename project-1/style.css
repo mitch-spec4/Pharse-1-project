@@ -1,0 +1,171 @@
+*{
+
+  font-optical-sizing: auto;
+  
+}
+body{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  
+ background-color:white;
+
+  
+  font-family: "afacad",sans-serif;
+}
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+body.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}
+body.light-mode button {
+  background-color: #007BFF;
+  color: white;
+}
+
+
+body.dark-mode button {
+  background-color: #0056b3;
+  color: white;
+}
+
+
+#toggle-mode {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+
+nav {
+  /* background-color: #E6F5F0; */
+    text-align: end;
+    display:flex;
+    justify-content: space-between;
+    /* align-items: end; */
+    cursor: scope;
+    padding: 0%;
+   
+        
+  
+    
+    
+   
+    
+}
+/* .menu-icon {
+    cursor: pointer;
+} */
+ .nav-text{
+  display: none;
+ }
+ nav #nav-bits{
+    display:flex;
+    gap: 1em;
+    list-style: none;
+    text-decoration: none;
+    padding: 4px;
+    
+}
+nav #nav-bits .nav-bit a{
+    text-decoration: none;
+    position: relative;
+    padding: 10px;
+}
+a:link{
+  text-decoration: none;
+}
+
+
+a:visited{
+  color: blue;
+}
+a:hover{
+  color: #420234;
+  text-decoration: underline;
+}
+.second-nav  {
+  padding:0%;
+  margin-right:44.08%;
+  
+  
+background-color: rgb(223, 224, 223);
+
+
+  
+} 
+ .second-nav ul{ 
+  list-style:none;
+  text-align: left;
+  font-size: large;
+  justify-content:space-between ;
+  
+  
+  
+
+ }
+ .third-nav{
+  padding-block:0%;
+  margin:0%;
+  background-color: rgb(228, 250, 250);
+ }
+ .second-nav button{
+  
+    padding: 10px 20px;
+    font-size: 16px; 
+    width: 150px; 
+    height: 50px; 
+    border: none;
+    border-radius: 5px; 
+    background-color:#007BFF;
+    color: white; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+.fourth-nav ul{ 
+
+  padding: 0%;
+  margin-right: auto;
+  list-style: none;
+
+ 
+}
+#token-menu {
+  display: none;
+  
+  
+  
+  position: absolute;
+}
+.sponsor-nav {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.sponsor-nav h3 {
+  margin: 0;
+}
+
+.sponsor-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sponsor-nav li {
+  display: inline;
+  margin: 0 15px;
+}
